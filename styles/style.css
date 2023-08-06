@@ -1,0 +1,480 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0 auto;
+    min-width: 100%;
+    min-height: auto;
+}
+
+.header {
+    background-image: url(../styles/image/bg_image.png);
+    min-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    background-repeat: no-repeat;
+}
+
+.nav_bar_list {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.header_line {
+    padding: 0px 166px;
+    padding-top: 41px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+
+a {
+    margin-top: 0;
+    color: white;
+    padding: 20px;
+}
+
+.icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 70px;
+    margin-left: 65px;
+}
+
+.icon_world {
+    margin-right: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+.language {
+    color: white;
+    font-weight: lighter;
+}
+
+.header_hero_text {
+    width: 50%;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 72px;
+    padding-left: 166px;
+}
+
+.container_hero {
+    width: 1140px;
+    height: auto;
+    color: white;
+}
+
+.header_text {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-left: 166px;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 166px;
+    text-decoration: none;
+}
+
+.container_carts {
+    min-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.container_cart_item {
+    font-size: 18px;
+    margin: 40px 20px 30px 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_hero {
+    display: flex;
+    /* margin-top: 150px; */
+    width: 1140px;
+    height: auto;
+    color: white;
+}
+
+.container_cart1 {
+    width: 255px;
+    height: 148px;
+    background-color: #2378FC;
+    margin: 10px 10px;
+}
+
+.container_cart2 {
+    width: 255px;
+    height: 148px;
+    background-color: #30BCC9;
+    margin: 10px 10px;
+}
+
+.container_cart3 {
+    width: 255px;
+    height: 155px;
+    background-color: #FFC41E;
+    margin: 10px 10px;
+}
+
+.container_cart4 {
+    width: 255px;
+    height: 155px;
+    background-color: #F6404F;
+    margin: 10px 10px;
+}
+
+.section {
+    max-width: 100%;
+    min-height: auto;
+    overflow: hidden;
+    background-color: #2378FC;
+    color: white;
+}
+
+.section_item {
+    min-width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 36px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 8px;
+}
+
+.section_list {
+    min-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 60px;
+}
+
+.section_list1 {
+    margin-left: 33px;
+}
+
+.section_list2 {
+    margin-left: 49px;
+}
+
+.section_list3 {
+    margin-left: 56px;
+}
+
+
+/* block #3 */
+
+.hero {
+    min-width: 100%;
+    min-height: auto;
+    margin: 0;
+    background-color: #FFC41E;
+}
+
+h2 {
+    padding-left: 116px;
+    padding-top: 55px;
+}
+
+.hero_cart1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.hero_cart2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.hero_text {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #F6404F;
+    font-size: 21px;
+}
+
+p {
+    color: black;
+}
+
+.hero_text1 {
+    padding-left: 48px;
+}
+
+.hero_text2 {
+    padding-left: 25px;
+}
+
+.hero_text3 {
+    padding-right: 84px;
+}
+
+.hero_cart2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 116px;
+    padding-right: 116px;
+}
+
+.hero__text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero_text4 {
+    padding-left: 56px;
+}
+
+.hero_text5 {
+    padding-left: 7px;
+}
+
+.hero_text6 {
+    padding-right: 145px;
+}
+
+.container_news {
+    display: flex;
+    justify-content: center;
+    min-width: 1140px;
+    min-height: auto;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 216px;
+}
+
+.new_container_img>img {
+    padding: 30px;
+}
+
+.news_container_item {
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.news_container_item>img {
+    width: 160px;
+    height: 120px;
+    margin-top: 78px;
+}
+
+.container_news_text {
+    width: 340px;
+    margin: 20px;
+}
+
+.total_text {
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.footer {
+    min-width: 100%;
+    min-height: 476px;
+    overflow: hidden;
+    background-color: #30BCC9;
+    margin: 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+    padding-left: 116px;
+}
+
+.t1,
+.t2,
+.t3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.icons_site {
+    width: 30%;
+}
+
+.footer_item {
+    display: flex;
+}
+
+.t4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.site_icons>img {
+    padding: 15px;
+}
+
+.color {
+    color: yellow;
+}
+
+.color:hover {
+    color: whitesmoke;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        min-width: 1024px;
+        min-height: auto;
+    }
+    .container_hero {
+        display: inline;
+        padding: 20px;
+    }
+    .header_hero_text {
+        font-size: 26px;
+        padding-left: 300px;
+    }
+    .header_text {
+        font-size: 18px;
+        padding-left: 300px;
+    }
+    .about {
+        padding-left: 300px;
+    }
+    .container_carts {
+        width: 90%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 980px) {
+    .container_hero {
+        display: inline;
+        padding: 20px;
+    }
+    .header_hero_text {
+        font-size: 26px;
+    }
+    .header_text {
+        font-size: 18px;
+    }
+    .container_carts {
+        flex-basis: 100%;
+        width: 50% 50%;
+        padding-top: 10px;
+        padding-left: 140px;
+    }
+}
+
+
+/* для 768 пикселей */
+
+
+/* /* @media (max-width: 768px) { */
+
+.header_hero_text {
+    font-size: 24px;
+}
+
+.header {
+    min-width: 80%;
+}
+
+.header_text {
+    font-size: 16px;
+}
+
+.container_carts {
+    width: 0%;
+    padding-left: -200px;
+}
+
+
+}
+*/ @media (max-width: 1280px) {
+    /* Пример обновления стилей для размера 1280px */
+    
+    .nav_bar_list {
+        font-size: 16px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 1280px можно добавить здесь */
+}
+
+/* Медиазапрос для размера экрана 1024 пикселя */
+@media (max-width: 1024px) {
+    /* Пример обновления стилей для размера 1024px */
+    
+    .nav_bar_list {
+        font-size: 14px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 1024px можно добавить здесь */
+}
+
+/* Медиазапрос для размера экрана 960 пикселей */
+@media (max-width: 960px) {
+    /* Пример обновления стилей для размера 960px */
+    
+    .nav_bar_list {
+        font-size: 12px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 960px можно добавить здесь */
+}
+
+/* Медиазапрос для размера экрана 780 пикселей */
+@media (max-width: 780px) {
+    /* Пример обновления стилей для размера 780px */
+    
+    .nav_bar_list {
+        font-size: 10px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 780px можно добавить здесь */
+}
+
+/* Медиазапрос для размера экрана 480 пикселей */
+@media (max-width: 480px) {
+    /* Пример обновления стилей для размера 480px */
+    
+    .nav_bar_list {
+        font-size: 8px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 480px можно добавить здесь */
+}
+
+/* Медиазапрос для размера экрана 320 пикселей */
+@media (max-width: 320px) {
+    /* Пример обновления стилей для размера 320px */
+    
+    .nav_bar_list {
+        font-size: 6px;
+        /* Уменьшение размера шрифта для пунктов меню */
+    }
+    /* Дополнительные обновления стилей для размера 320px можно добавить здесь */
+}
