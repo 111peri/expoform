@@ -199,13 +199,14 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    padding-left: 116px;
+    padding-right: 116px;
     margin-bottom: 15px;
 }
 
 .hero_cart2 {
     display: flex;
     justify-content: space-around;
-    margin-right: 30px;
 }
 
 .hero_text {
@@ -323,13 +324,25 @@ p {
 }
 
 .footer_item {
+    width: 50%;
     display: flex;
+    min-width: 1140px;
+    margin-top: -280px;
+}
+
+.footer_item_list {
+    padding-left: 70px;
+}
+
+.footer_item_list>.t4 {
+    padding-left: 10px;
 }
 
 .t4 {
     color: white;
     font-size: 24px;
     font-weight: 500;
+    padding-left: 28px;
 }
 
 .site_icons>img {
@@ -337,11 +350,39 @@ p {
 }
 
 .color {
-    color: yellow;
+    color: #FFC41E;
 }
 
 .color:hover {
     color: whitesmoke;
+}
+
+.t6 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.e-mail>p {
+    color: white;
+    padding-left: ;
+}
+
+button {
+    width: 255px;
+    height: 40px;
+}
+
+.t5 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0px;
+}
+
+.media {
+    display: inline;
+    padding-bottom: 90px;
 }
 
 @media (max-width: 1024px) {
